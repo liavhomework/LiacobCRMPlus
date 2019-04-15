@@ -35,8 +35,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MahApps.Metro">
+      <HintPath>packages\MahApps.Metro.dll</HintPath>
+    </Reference>
     <Reference Include="MaterialDesignColors">
       <HintPath>packages\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.MahApps">
+      <HintPath>packages\MaterialDesignThemes.MahApps.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignThemes.Wpf">
       <HintPath>packages\MaterialDesignThemes.Wpf.dll</HintPath>
@@ -70,6 +76,7 @@
       <DependentUpon>TaskManagementContienrControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Converters\BoolToOppositeBoolConverter.cs" />
+    <Compile Include="Dialog\AnotherCommandImplementation.cs" />
     <Compile Include="ViewModelsBase\ViewModelBase.cs" />
     <Page Include="Components\TaskManagementComponet\TaskManagementComponetControl.xaml">
       <SubType>Designer</SubType>

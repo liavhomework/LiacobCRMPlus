@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LiacobCRMPlus_Client"
         xmlns:containers="clr-namespace:LiacobCRMPlus_Client.Containers"
+        xmlns:compo="clr-namespace:LiacobCRMPlus_Client.Components"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d" Background="Black" Foreground="White"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <containers:TaskManagementContienrControl/>
-    </Grid>
+    <containers:TaskManagementContienrControl/>
 </Window>
