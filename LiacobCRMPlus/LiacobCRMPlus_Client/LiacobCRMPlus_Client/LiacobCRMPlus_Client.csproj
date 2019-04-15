@@ -39,13 +39,13 @@
       <HintPath>packages\MahApps.Metro.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignColors">
-      <HintPath>packages\MaterialDesignColors.dll</HintPath>
+      <HintPath>..\..\..\packages\MaterialDesignColors.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignThemes.MahApps">
       <HintPath>packages\MaterialDesignThemes.MahApps.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignThemes.Wpf">
-      <HintPath>packages\MaterialDesignThemes.Wpf.dll</HintPath>
+      <HintPath>..\..\..\packages\MaterialDesignThemes.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
